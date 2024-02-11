@@ -32,7 +32,9 @@ function App(): React.ReactElement {
             backgroundImage: `url(${bg})`,
             backgroundSize: 'cover',
           }}
-        />
+        >
+          <h1>Test</h1>
+        </ParallaxLayer>
         <ParallaxLayer
           offset={1}
           speed={1}
