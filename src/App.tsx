@@ -10,11 +10,13 @@ import bg from "./images/IMG_1458.jpg";
  *
  */
 
-function App(): JSX.Element {
+function App(): React.ReactElement {
 
   return (
     <div className="App">
-
+      <main>
+        <img src={bg} alt="night-sky" className="bg-image"/>
+      </main>
     </div>
   );
 };
