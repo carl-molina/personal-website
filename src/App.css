@@ -1,3 +1,9 @@
+@import 'normalize.css';
+
+body {
+  background-color: #000300;
+}
+
 .App {
   min-height: 90vh;
   display: flex;
@@ -17,7 +23,7 @@
   color: darkgray;
 }
 
-/* .bg-image {
+.bg-image {
   width: 100%;
   min-width: 100vw;
   min-height: 100vh;
@@ -29,4 +35,4 @@
   min-width: 100vw;
   min-height: 100vh;
   object-fit: fill;
-} */
+}
