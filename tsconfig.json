@@ -5,6 +5,5 @@
         "strict": false,
         "jsx": "react",
         "types": ["@testing-library/jest-dom"]
-    },
-    "include": ["src", "node_modules/@types"]
+    }
 }
