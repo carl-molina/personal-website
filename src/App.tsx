@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import bg from "./images/IMG_1458.jpg";
@@ -17,6 +18,8 @@ function App(): React.ReactElement {
 
   return (
     <main>
+      <BrowserRouter>
+      </BrowserRouter>
       <Parallax pages={2}>
         <ParallaxLayer
           offset={0}
