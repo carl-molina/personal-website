@@ -17,9 +17,16 @@
   color: darkgray;
 }
 
-.bg-image {
+/* .bg-image {
   width: 100%;
   min-width: 100vw;
   min-height: 100vh;
   object-fit: cover;
 }
+
+.fg-image {
+  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: fill;
+} */
