@@ -1,0 +1,12 @@
+a {
+  color: white;
+  transition: background-color 0.33s ease;
+}
+
+a:hover {
+  background-color: rgb(61, 129, 112);
+}
+
+a:visited {
+  color: white;
+}
