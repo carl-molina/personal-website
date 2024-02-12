@@ -43,6 +43,15 @@ body {
   flex-wrap: wrap;
 }
 
+.montains-fg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 h1, h2, h3, p {
   color: white;
   background-color: #003a47;
@@ -128,7 +137,7 @@ img.profile-img {
   transition: 0.4s;
 }
 
-.bottom-component {
+/* .bottom-component {
   z-index: 10;
   width: 100%;
 }
@@ -139,7 +148,7 @@ img.profile-img {
   justify-content: flex-end;
   align-items: center;
   min-height: 100vh;
-}
+} */
 
 
 .Parallax-main {

@@ -13,7 +13,7 @@ function Body() {
 
     return (
         <>
-            <div className="Body" id="about-me">
+            <div className="Body">
                 <h2>Film, Autonomous Vehicles, Software Engineering</h2>
             </div>
         </>

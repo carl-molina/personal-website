@@ -1,11 +1,11 @@
 import React from "react";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { BrowserRouter } from "react-router-dom";
-import "./App.css";
 
 import bg from "./images/IMG_1458.jpg";
 import fg from "./images/layered-peaks-haikei.svg";
+import "./App.css";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
 import Body from "./Body";
@@ -20,6 +20,11 @@ import Body from "./Body";
 
 function App(): React.ReactElement {
 
+  function handleScrollAboutMe() {
+    const aboutMe = document.getElementById("about-me");
+    aboutMe?.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <>
       <main>
@@ -28,7 +33,7 @@ function App(): React.ReactElement {
             <BrowserRouter>
               <Navbar />
             </BrowserRouter>
-            <Parallax pages={3} className="Parallax-main">
+            <Parallax pages={2} className="Parallax-main">
               <ParallaxLayer
                 className="tree-bg"
                 offset={0}
@@ -47,58 +52,36 @@ function App(): React.ReactElement {
                   />
                   <div className="Intro-container col-4 mt-5 ml-5 mr-5">
                     <Intro />
-                    <a href="#about-me">
-                      <button className="css-button-arrow--green">
+                      <button
+                        className="css-button-arrow--green"
+                        onClick={handleScrollAboutMe}
+                      >
                         More About Me
                       </button>
-                    </a>
-
                   </div>
                 </div>
-
               </ParallaxLayer>
               <ParallaxLayer
+                className="mountains-fg"
                 offset={1}
                 speed={2}
                 factor={1}
                 style={{
                   backgroundImage: `url(${fg})`,
                   backgroundSize: 'cover',
+                  backgroundRepeat: "repeat"
                 }}
               >
-              </ParallaxLayer>
-              <ParallaxLayer
-                offset={1.5}
-                speed={2.75}
-                factor={1}
-                style={{
-                  backgroundImage: `url(${fg})`,
-                  backgroundSize: 'cover',
-                }}
-              >
+                <div className="container" id="about-me">
+                  <div className="Intro-container col-4 mt-5 ml-5 mr-5">
+                    <Body />
+                  </div>
+                </div>
               </ParallaxLayer>
             </Parallax>
           </div>
         </>
       </main>
-      <section>
-      <div className="after-parallax">
-        <div className="bottom-component">
-          <h1>Test at bottom</h1>
-          <Body />
-          <h2>Is this at the bottom?</h2>
-        </div>
-        Í
-        {/* Additional content */}
-
-        <footer>
-          <h2>Test Footer</h2>
-          {/* Your footer content here */}
-        </footer>
-
-      </div>
-      </section>
-
     </>
   );
 };
