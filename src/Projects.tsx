@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Intro.css";
+// import "./Projects.css";
 
 /** Projects: presentational component for projects.
  *
@@ -13,9 +13,9 @@ function Projects() {
 
     return (
         <div>
-            <h1>JOBLY</h1>
-            <h1>PIXLY</h1>
-            <h1>Plant App</h1>
+            <h2>JOBLY</h2>
+            <h2>PIXLY</h2>
+            <h2>Plant App</h2>
         </div>
     )
 }

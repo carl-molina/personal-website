@@ -12,12 +12,12 @@ import Body from "./Body";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-/** Component for entire page.
+/** Component for personal website.
  *
  * Props: none
  * State: none
  *
- * App -> { Navbar, Intro, Body }
+ * App -> { Navbar, Routes, Body }
  */
 
 function App(): React.ReactElement {
