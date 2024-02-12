@@ -5,6 +5,8 @@ import "./Intro.css";
  *
  * Props: none
  * State: none
+ *
+ * App -> Intro
  */
 
 function Intro() {

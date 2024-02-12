@@ -1,6 +1,6 @@
 nav {
-  background-color: rgb(255, 255, 255);
-  color: rgb(64, 80, 115);
+  background-color: rgb(0, 58, 71);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -16,7 +16,7 @@ nav {
 }
 
 .Navbar-title::after {
-  content: '👩🏽‍💼🧑🏻‍💼👨🏾‍💼';
+  content: '🧑🏽‍💻🪴☕️';
   position: absolute;
   top: 0;
   right: -6rem;
@@ -58,5 +58,5 @@ nav li a.active {
 }
 
 nav li a:hover {
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(61, 129, 112);
 }
