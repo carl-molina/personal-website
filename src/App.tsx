@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import bg from "./images/IMG_1458.jpg";
 import fg from "./images/layered-peaks-haikei.svg";
+import pfPic from "./images/CarlMolina_ProfilePhoto4.jpg";
 import "./App.css";
 
 import Navbar from "./Navbar";
@@ -50,7 +51,7 @@ function App(): React.ReactElement {
                   <div className="container">
                     <img
                       className="profile-img col-8 mt-5"
-                      src="./src/images/CarlMolina_ProfilePhoto4.jpg"
+                      src={pfPic}
                       alt="profile photo"
                     />
                     <div className="Intro-container col-4 mt-5 ml-5 mr-5">
