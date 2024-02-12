@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import resume from "./resume/CarlMolina_Resume.pdf";
+import resume from "../public/CarlMolina_Resume.pdf";
 
 /** Navbar: navbar component for personal website.
  *

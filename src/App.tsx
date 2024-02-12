@@ -2,9 +2,9 @@ import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import bg from "./images/IMG_1458.jpg";
-import fg from "./images/layered-peaks-haikei.svg";
-import pfPic from "./images/CarlMolina_ProfilePhoto4.jpg";
+import bg from "../public/IMG_1458.jpg";
+import fg from "../public/layered-peaks-haikei.svg";
+import pfPic from "../public/CarlMolina_ProfilePhoto4.jpg";
 import "./App.css";
 
 import Navbar from "./Navbar";
