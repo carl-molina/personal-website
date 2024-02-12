@@ -9,7 +9,7 @@ import React from "react";
  * App -> RoutesList -> Projects
  */
 
-function Projects() {
+function Projects(): JSX.Element {
 
     return (
         <div>

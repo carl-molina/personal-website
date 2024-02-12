@@ -9,7 +9,7 @@ import "./Intro.css";
  * App -> Intro
  */
 
-function Intro() {
+function Intro(): JSX.Element {
 
     return (
         <>

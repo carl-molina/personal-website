@@ -12,7 +12,7 @@ import Contact from "./Contact";
  *  App -> RoutesList -> { Projects, Contact }
 */
 
-function RoutesList() {
+function RoutesList(): JSX.Element {
 
   return (
     <div className="RoutesList">

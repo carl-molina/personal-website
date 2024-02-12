@@ -9,7 +9,7 @@ import "./Contact.css";
  * App -> RoutesList -> Contact
  */
 
-function Contact() {
+function Contact(): JSX.Element {
 
     return (
         <>

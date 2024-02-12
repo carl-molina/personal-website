@@ -10,7 +10,7 @@ import "./Body.css"
  *  App -> Body
  */
 
-function Body() {
+function Body(): JSX.Element {
 
     return (
         <>
