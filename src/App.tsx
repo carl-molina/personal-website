@@ -28,7 +28,7 @@ function App(): React.ReactElement {
             <BrowserRouter>
               <Navbar />
             </BrowserRouter>
-            <Parallax pages={2} className="Parallax-main">
+            <Parallax pages={3} className="Parallax-main">
               <ParallaxLayer
                 className="tree-bg"
                 offset={0}
@@ -59,7 +59,17 @@ function App(): React.ReactElement {
               </ParallaxLayer>
               <ParallaxLayer
                 offset={1}
-                speed={1}
+                speed={2}
+                factor={1}
+                style={{
+                  backgroundImage: `url(${fg})`,
+                  backgroundSize: 'cover',
+                }}
+              >
+              </ParallaxLayer>
+              <ParallaxLayer
+                offset={1.5}
+                speed={2.75}
                 factor={1}
                 style={{
                   backgroundImage: `url(${fg})`,
