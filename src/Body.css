@@ -1,0 +1,13 @@
+.Kett, .RS, h4 a {
+  text-decoration: none;
+  transition: background-color 0.33s ease;
+}
+
+.Kett:hover {
+  text-decoration: none;
+  background-color: rgb(61, 129, 112);
+}
+
+.RS:hover {
+  background-color: rgb(61, 129, 112);
+}

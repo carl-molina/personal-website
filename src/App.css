@@ -52,7 +52,7 @@ body {
   flex-wrap: wrap;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   color: white;
   background-color: #003a47;
   padding: 5px;
@@ -80,6 +80,16 @@ img.profile-img {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: start;
+  margin-left: 20px;
+  color: white;
+}
+
+.Body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-left: 20px;
   color: white;
 }
