@@ -23,8 +23,9 @@ import Contact from "./Contact";
 
 function App(): React.ReactElement {
 
+  /** handleScrollAboutMe: moves page smoothly to #about-me section. */
   function handleScrollAboutMe() {
-    const aboutMe = document.getElementById("about-me");
+    const aboutMe = document.querySelector("#about-me");
     aboutMe?.scrollIntoView({ behavior: "smooth" });
   }
 
