@@ -71,7 +71,7 @@ img.profile-img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  animation: slideIn 1s ease;
+  animation: slideIn 5s ease;
 }
 
 .Intro-container {
