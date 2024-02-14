@@ -8,6 +8,7 @@ import pfPic from "../public/CarlMolina_ProfilePhoto4.jpg";
 import "./App.css";
 
 import Navbar from "./Navbar";
+import RoutesList from "./RoutesList";
 import Intro from "./Intro";
 import Body from "./Body";
 import Projects from "./Projects";
@@ -56,11 +57,7 @@ function App(): React.ReactElement {
                       alt="profile photo"
                     />
                     <div className="Intro-container col-4 mt-5 ml-5 mr-5">
-                      <Routes>
-                        <Route path="/" element={<Intro />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/contact" element={<Contact />} />
-                      </Routes>
+                      <RoutesList />
                       <button
                         className="css-button-arrow--green"
                         onClick={handleScrollAboutMe}
