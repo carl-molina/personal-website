@@ -13,11 +13,18 @@ function Projects(): JSX.Element {
 
     return (
         <div>
-            <h2>JOBLY</h2>
+            <h2>
+                <a
+                    href="https://carlmolina-jobly.onrender.com/"
+                    target="_blank"
+                    rel="noopener">
+                    JOBLY
+                </a>
+            </h2>
             <h2>PIXLY</h2>
             <h2>Plant App</h2>
         </div>
-    )
+    );
 }
 
 export default Projects;
