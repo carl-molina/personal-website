@@ -28,7 +28,13 @@ function Projects(): JSX.Element {
                     PIXLY
                 </a>
             </h2>
-            <h2>Plant App</h2>
+            <h2>
+                <a href="https://carl-molina-plant-app.onrender.com/"
+                    target="_blank"
+                    rel="noopener">
+                    Plant App
+                </a>
+            </h2>
         </div>
     );
 }
