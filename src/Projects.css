@@ -1,0 +1,12 @@
+a.Projects-project {
+  text-decoration: none;
+  transition: background-color 0.33s ease;
+}
+
+h2 {
+  transition: background-color 0.33s ease;
+}
+
+h2:hover {
+  background-color: rgb(61, 129, 112);
+}
