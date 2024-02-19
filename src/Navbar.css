@@ -16,10 +16,12 @@ nav {
 }
 
 .Navbar-title::after {
-  content: '🧑🏽‍💻🪴☕️';
+  /* original content for ref: */
+  /* content: '🧑🏽‍💻🪴☕️'; */
+  content: '🧑🏽‍💻☕️';
   position: absolute;
   top: 0;
-  right: -6rem;
+  right: -4rem;
   font-size: 2rem;
   color: #fff;
   opacity: 0;
