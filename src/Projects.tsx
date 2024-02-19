@@ -18,7 +18,7 @@ function Projects(): JSX.Element {
         <div>
             <div className="Projects-container">
                 <a
-                    href="https://carlmolina-jobly.onrender.com/"
+                    href="https://jobly.carlmolina.com/"
                     target="_blank"
                     rel="noopener"
                     className="Projects-project">
@@ -41,7 +41,7 @@ function Projects(): JSX.Element {
                 </p>
             </div>
             <div className="Projects-container">
-                <a href="https://carl-molina-pixly.onrender.com/"
+                <a href="https://pixly.carlmolina.com/"
                     target="_blank"
                     rel="noopener"
                     className="Projects-project">
@@ -63,7 +63,7 @@ function Projects(): JSX.Element {
                 </p>
             </div>
             <div className="Projects-container">
-                <a href="https://carl-molina-plant-app.onrender.com/"
+                <a href="https://plantapp.carlmolina.com/"
                     target="_blank"
                     rel="noopener"
                     className="Projects-project">
