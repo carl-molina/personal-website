@@ -10,11 +10,11 @@ a.Projects-project:visited {
   color: inherit;
 }
 
-h2 {
+h2.Project-title {
   transition: background-color 0.33s ease;
 }
 
-h2:hover {
+h2.Project-title:hover {
   background-color: rgb(61, 129, 112);
 }
 
