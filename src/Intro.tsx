@@ -14,7 +14,7 @@ function Intro(): JSX.Element {
     return (
         <>
             <h1>Software Engineer</h1>
-            <h3>San Jose, CA</h3>
+            <h3>Sunnyvale, CA</h3>
             <p>Former Field Op Specialist with calibration and sensor health
                 experience in the autonomous vehicle industry.<br></br>
                 <br></br>
