@@ -1,6 +1,13 @@
 a.Projects-project {
   text-decoration: none;
   transition: background-color 0.33s ease;
+  color: inherit;
+}
+
+a.Projects-project:visited {
+  text-decoration: none;
+  transition: background-color 0.33s ease;
+  color: inherit;
 }
 
 h2 {
@@ -10,3 +17,8 @@ h2 {
 h2:hover {
   background-color: rgb(61, 129, 112);
 }
+
+.Projects-gif {
+  width: 100%;
+}
+

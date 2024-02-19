@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import joblyGif from "../public/joblyGif.gif";
+import pixlyGif from "../public/pixlyGif.gif";
 
 /** Projects: presentational component for projects.
  *
@@ -14,35 +16,63 @@ function Projects(): JSX.Element {
     return (
         <div>
             <div className="Projects-container">
-                <h2>
-                    <a
-                        href="https://carlmolina-jobly.onrender.com/"
-                        target="_blank"
-                        rel="noopener"
-                        className="Projects-project">
-                        JOBLY
-                    </a>
-                </h2>
+                <a
+                    href="https://carlmolina-jobly.onrender.com/"
+                    target="_blank"
+                    rel="noopener"
+                    className="Projects-project">
+                    <h2>
+                        JOBLY 👩🏽‍💼
+                    </h2>
+                </a>
+                <img src={joblyGif} className="Projects-gif" />
+                <p>Job board where users can sign up, browse companies,
+                    and apply to jobs. Companies can post new jobs. Protects
+                    routes on unauthorized users. Manages React state. Backend
+                    authentication using jsonschema and JWT.
+                </p>
+                <p>
+                    <ul>
+                        <li>Frontend:
+                            <ul>
+                                <li>React, React Router, Fetch API</li>
+                            </ul>
+                        </li>
+                        <li>Backend:
+                            <ul>
+                                <li>Express, PostGreSQL</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
             </div>
             <div className="Projects-container">
-                <h2>
-                    <a href="https://carl-molina-pixly.onrender.com/"
-                        target="_blank"
-                        rel="noopener"
-                        className="Projects-project">
-                        PIXLY
-                    </a>
-                </h2>
+                <a href="https://carl-molina-pixly.onrender.com/"
+                    target="_blank"
+                    rel="noopener"
+                    className="Projects-project">
+                    <h2>
+                        PIXLY 📷
+                    </h2>
+                </a>
+                <img src={pixlyGif} className="Projects-gif" />
+                <p>Image site that lets users upload images, view other images,
+                    search EXIF data, and view a photo's EXIF data.
+                    Uses AWS S3 to store and retrieve image files. Additional
+                    tech: Python, Flask, Jinja, SQLAlchemy, JS,
+                    Pillow.
+                </p>
             </div>
             <div className="Projects-container">
-                <h2>
-                    <a href="https://carl-molina-plant-app.onrender.com/"
-                        target="_blank"
-                        rel="noopener"
-                        className="Projects-project">
+                <a href="https://carl-molina-plant-app.onrender.com/"
+                    target="_blank"
+                    rel="noopener"
+                    className="Projects-project">
+                    <h2>
+
                         Plant App
-                    </a>
-                </h2>
+                    </h2>
+                </a>
             </div>
         </div>
     );
