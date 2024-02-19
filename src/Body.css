@@ -1,6 +1,20 @@
-.Kett, .RS, h4 a {
+.Body-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 4rem;
+}
+
+.Kett,
+.RS,
+h4 a {
   text-decoration: none;
   transition: background-color 0.33s ease;
+  display: flex;
+  align-items: flex-end;
 }
 
 .Kett:hover {
