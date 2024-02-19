@@ -18,7 +18,7 @@ function Intro(): JSX.Element {
             <p>Former Field Op Specialist with calibration and sensor health
                 experience in the autonomous vehicle industry.<br></br>
                 <br></br>
-                Now full-stack software developer building React apps, automating tests,
+                Now full-stack software developer building React-TypeScript apps, automating tests,
                 and&nbsp;<i>
                 <a
                     href="https://medium.com/@carlandrew.molina

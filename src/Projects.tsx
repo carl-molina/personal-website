@@ -23,7 +23,7 @@ function Projects(): JSX.Element {
                     rel="noopener"
                     className="Projects-project">
                     <h2 className="Project-title">
-                        JOBLY 👩🏽‍💼
+                        Jobly 👩🏽‍💼
                     </h2>
                 </a>
                 <a href="https://carlmolina-jobly.onrender.com/"
@@ -46,7 +46,7 @@ function Projects(): JSX.Element {
                     rel="noopener"
                     className="Projects-project">
                     <h2 className="Project-title">
-                        PIXLY 📷
+                        Pix.ly 📷
                     </h2>
                 </a>
                 <a href="https://carl-molina-pixly.onrender.com/"
