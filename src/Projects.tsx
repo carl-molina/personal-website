@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import joblyGif from "../public/joblyGif.gif";
 import pixlyGif from "../public/pixlyGif.gif";
+import plantGif from "../public/plantAppGif.gif";
 
 /** Projects: presentational component for projects.
  *
@@ -69,10 +70,16 @@ function Projects(): JSX.Element {
                     rel="noopener"
                     className="Projects-project">
                     <h2>
-
-                        Plant App
+                        Plant App 🌱
                     </h2>
                 </a>
+                <img src={plantGif} className="Projects-gif" />
+                <p>Plant search site that lets users search plants, view care
+                    details, and bookmark individual plants. Additional tech:
+                    Perenual API, Flask, Jinja, SQLAlchemy, JS, jQuery, Axios,
+                    WTForm, Flask Session, Bcrypt. This project was originally
+                    built in Dec 2023.
+                </p>
             </div>
         </div>
     );
