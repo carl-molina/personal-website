@@ -38,6 +38,7 @@ function Projects(): JSX.Element {
                     authentication using jsonschema and JWT. Additional tech:
                     React, React Router, Fetch API, Node.js, Express,
                     PostgreSQL, ElephantSQL, Render.
+                    {/* TODO: add Github repo */}
                 </p>
             </div>
             <div className="Projects-container">
@@ -53,13 +54,14 @@ function Projects(): JSX.Element {
                     target="_blank"
                     rel="noopener"
                 >
-                <img src={pixlyGif} className="Projects-gif" />
+                    <img src={pixlyGif} className="Projects-gif" />
                 </a>
                 <p>Image site that lets users upload images, view other images,
                     search EXIF data, and view a photo's EXIF data.
                     Uses AWS S3 to store and retrieve image files. Additional
                     tech: Python, Flask, Jinja, SQLAlchemy, JS,
                     Pillow.
+                    {/* TODO: add Github repo */}
                 </p>
             </div>
             <div className="Projects-container">
@@ -75,12 +77,13 @@ function Projects(): JSX.Element {
                     target="_blank"
                     rel="noopener"
                 >
-                <img src={plantGif} className="Projects-gif" />
+                    <img src={plantGif} className="Projects-gif" />
                 </a>
                 <p>Plant search site that lets users search plants, view care
                     details, and bookmark individual plants. Additional tech:
                     Perenual API, Flask, Jinja, SQLAlchemy, JS, jQuery, Axios,
                     WTForm, Flask Session, Bcrypt, PostgreSQL.
+                    {/* TODO: add Github repo */}
                 </p>
             </div>
         </div>
