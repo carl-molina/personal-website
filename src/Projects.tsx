@@ -37,8 +37,14 @@ function Projects(): JSX.Element {
                     routes on unauthorized users. Manages React state. Backend
                     authentication using jsonschema and JWT. Additional tech:
                     React, React Router, Fetch API, Node.js, Express,
-                    PostgreSQL, ElephantSQL, Render.
-                    {/* TODO: add Github repo */}
+                    PostgreSQL, ElephantSQL, Render.&nbsp;
+                    <a
+                        href="https://github.com/carl-molina/jobly"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Github repo.
+                    </a>
                 </p>
             </div>
             <div className="Projects-container">
