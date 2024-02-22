@@ -43,7 +43,7 @@ function Projects(): JSX.Element {
                         target="_blank"
                         rel="noopener"
                     >
-                        Github repo.
+                        GitHub repo.
                     </a>
                 </p>
             </div>
