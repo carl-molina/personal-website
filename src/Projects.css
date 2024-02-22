@@ -14,7 +14,7 @@ h2.Project-title {
   transition: background-color 0.33s ease;
 }
 
-h2.Project-title:hover {
+h2.Project-title:hover, div p a:hover {
   background-color: rgb(61, 129, 112);
 }
 
