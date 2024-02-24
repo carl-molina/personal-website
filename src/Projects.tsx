@@ -66,8 +66,14 @@ function Projects(): JSX.Element {
                     search EXIF data, and view a photo's EXIF data.
                     Uses AWS S3 to store and retrieve image files. Additional
                     tech: Python, Flask, Jinja, SQLAlchemy, JS,
-                    Pillow.
-                    {/* TODO: add Github repo */}
+                    Pillow.&nbsp;
+                    <a
+                        href="https://github.com/carl-molina/pix.ly"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        GitHub repo.
+                    </a>
                 </p>
             </div>
             <div className="Projects-container">
