@@ -43,7 +43,7 @@ function Projects(): JSX.Element {
                         target="_blank"
                         rel="noopener"
                     >
-                        GitHub repo.
+                        GitHub.
                     </a>
                 </p>
             </div>
@@ -72,7 +72,7 @@ function Projects(): JSX.Element {
                         target="_blank"
                         rel="noopener"
                     >
-                        GitHub repo.
+                        GitHub.
                     </a>
                 </p>
             </div>
@@ -94,8 +94,14 @@ function Projects(): JSX.Element {
                 <p>Plant search site that lets users search plants, view care
                     details, and bookmark individual plants. Additional tech:
                     Perenual API, Flask, Jinja, SQLAlchemy, JS, jQuery, Axios,
-                    WTForm, Flask Session, Bcrypt, PostgreSQL.
-                    {/* TODO: add Github repo */}
+                    WTForm, Flask Session, Bcrypt, PostgreSQL.&nbsp;
+                    <a
+                        href="https://github.com/carl-molina/plant-app"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        GitHub.
+                    </a>
                 </p>
             </div>
         </div>
