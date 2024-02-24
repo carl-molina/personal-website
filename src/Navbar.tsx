@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import resume from "../public/CarlMolina_Resume.pdf";
+import resume from "../public/Carl_Molina_Resume.pdf";
 
 /** Navbar: navbar component for personal website.
  *
@@ -18,7 +18,7 @@ function Navbar(): JSX.Element {
             <nav>
                 <NavLink to="/" className="Navbar-title">Carl Molina</NavLink>
                 <ul>
-                    <li><a href={resume} download="CarlMolina_Resume.pdf">Resume</a></li>
+                    <li><a href={resume} download="Carl_Molina_Resume.pdf">Resume</a></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
