@@ -1,4 +1,6 @@
-<!-- TODO: add readme for personal website -->
+## carlmolina.com
+
+Personal portfolio website for resume, projects, contact, and more about me.
 
 ## Credits for React TS Starter
 
