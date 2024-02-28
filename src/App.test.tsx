@@ -1,24 +1,20 @@
 import React from "react";
-import { test, expect } from "vitest";
+import { test, expect, describe } from "vitest";
 import { render, screen, fireEvent } from '@testing-library/react';
 
-import App from './App.js';
+import App from './App';
 
 
-test('renders counter button', function () {
-  render(<App />);
-  const buttonElement = screen.getByText(/Clicked: 0/i);
-  expect(buttonElement).toBeInTheDocument();
+describe("Projects smoke test", function () {
+  test('renders without crashing', function () {
+      render(<App />);
+  });
 });
 
-test('count increases on button click', function () {
-  render(<App />);
-  const buttonElement = screen.getByText(/Clicked: 0/i);
-  fireEvent.click(buttonElement);
-  expect(buttonElement).toHaveTextContent(/Clicked: 1/i);
-});
 
-test('matches snapshot', function () {
-  const { container } = render(<App />);
-  expect(container).toMatchSnapshot();
+describe("Projects snapshot test", function () {
+  test('matches snapshot', function () {
+      const { container } = render(<App />);
+      expect(container).toMatchSnapshot();
+  });
 });
