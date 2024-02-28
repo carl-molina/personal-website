@@ -12,6 +12,14 @@ describe("Projects smoke test", function () {
 });
 
 
+describe("Projects snapshot test", function () {
+    test('matches snapshot', function () {
+        const { container } = render(<Projects />);
+        expect(container).toMatchSnapshot();
+    });
+});
+
+
 // describe("Projects renders correct data", function () {
 //     test('contains expected text', function () {
 //         const res = render(<Projects />);
@@ -201,13 +209,5 @@ describe("Projects smoke test", function () {
 //         fireEvent.change(confirmPwInput, { target: { value: "ABC123test" } });
 //         await screen.findByText('❌ Password must match');
 //         expect(submitBtn).toBeDisabled();
-//     });
-// });
-
-
-// describe("Projects snapshot test", function () {
-//     test('matches snapshot', function () {
-//         const { container } = render(<Projects />);
-//         expect(container).toMatchSnapshot();
 //     });
 // });
