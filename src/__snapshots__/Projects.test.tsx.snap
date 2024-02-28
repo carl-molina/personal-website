@@ -1,0 +1,116 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Projects snapshot test > matches snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="Projects-container"
+    >
+      <a
+        class="Projects-project"
+        href="https://jobly.carlmolina.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <h2
+          class="Project-title"
+        >
+          Jobly 👩🏽‍💼
+        </h2>
+      </a>
+      <a
+        href="https://carlmolina-jobly.onrender.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <img
+          class="Projects-gif"
+          src="/public/joblyGif.gif"
+        />
+      </a>
+      <p>
+        Job board where users can sign up, browse companies, and apply to jobs. Companies can post new jobs. Protects routes on unauthorized users. Manages React state. Backend authentication using jsonschema and JWT. Additional tech: React, React Router, Fetch API, Node.js, Express, PostgreSQL, ElephantSQL, Render. 
+        <a
+          href="https://github.com/carl-molina/jobly"
+          rel="noopener"
+          target="_blank"
+        >
+          GitHub.
+        </a>
+      </p>
+    </div>
+    <div
+      class="Projects-container"
+    >
+      <a
+        class="Projects-project"
+        href="https://pixly.carlmolina.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <h2
+          class="Project-title"
+        >
+          Pix.ly 📷
+        </h2>
+      </a>
+      <a
+        href="https://carl-molina-pixly.onrender.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <img
+          class="Projects-gif"
+          src="/public/pixlyGif.gif"
+        />
+      </a>
+      <p>
+        Image site that lets users upload images, view other images, search EXIF data, and view a photo's EXIF data. Uses AWS S3 to store and retrieve image files. Additional tech: Python, Flask, Jinja, SQLAlchemy, JS, Pillow. 
+        <a
+          href="https://github.com/carl-molina/pix.ly"
+          rel="noopener"
+          target="_blank"
+        >
+          GitHub.
+        </a>
+      </p>
+    </div>
+    <div
+      class="Projects-container"
+    >
+      <a
+        class="Projects-project"
+        href="https://plantapp.carlmolina.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <h2
+          class="Project-title"
+        >
+          Plant App 🌱
+        </h2>
+      </a>
+      <a
+        href="https://carl-molina-plant-app.onrender.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        <img
+          class="Projects-gif"
+          src="/public/plantAppGif.gif"
+        />
+      </a>
+      <p>
+        Plant search site that lets users search plants, view care details, and bookmark individual plants. Additional tech: Perenual API, Flask, Jinja, SQLAlchemy, JS, jQuery, Axios, WTForm, Flask Session, Bcrypt, PostgreSQL. 
+        <a
+          href="https://github.com/carl-molina/plant-app"
+          rel="noopener"
+          target="_blank"
+        >
+          GitHub.
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

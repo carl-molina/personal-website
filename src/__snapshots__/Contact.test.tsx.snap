@@ -1,0 +1,77 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Projects snapshot test > matches snapshot 1`] = `
+<div>
+  <div
+    class="Contact-container"
+  >
+    <h5
+      class="Contact-email"
+    >
+      carl@carlmolina.com
+    </h5>
+    <div
+      class="Contact-icons"
+    >
+      <h5>
+        <a
+          class="nav-link"
+          href="https://www.linkedin.com/in/carlmolina/"
+          rel="noopener"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-linkedin"
+          />
+        </a>
+      </h5>
+      <h5>
+        <a
+          class="nav-link"
+          href="https://github.com/carl-molina"
+          rel="noopener"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-github"
+          />
+        </a>
+      </h5>
+      <h5>
+        <a
+          class="nav-link"
+          href="https://medium.com/@carlandrew.molina"
+          rel="noopener"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-medium"
+          />
+        </a>
+      </h5>
+      <h5>
+        <a
+          class="nav-link"
+          href="https://twitter.com/carlandmolina"
+          rel="noopener"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-x-twitter"
+          />
+        </a>
+      </h5>
+      <h5>
+        <a
+          class="nav-link"
+          href="mailto:carl@carlmolina.com"
+        >
+          <i
+            class="fa-solid fa-envelope"
+          />
+        </a>
+      </h5>
+    </div>
+  </div>
+</div>
+`;

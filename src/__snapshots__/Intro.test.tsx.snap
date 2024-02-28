@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Projects snapshot test > matches snapshot 1`] = `
+<div>
+  <h1>
+    Software Engineer
+  </h1>
+  <h3>
+    Sunnyvale, CA
+  </h3>
+  <p>
+    Former Field Op Specialist with calibration and sensor health experience in the autonomous vehicle industry.
+    <br />
+    <br />
+    Now full-stack software developer building React-TypeScript apps, automating tests, and 
+    <i>
+      <a
+        class="Medium-post"
+        href="https://medium.com/@carlandrew.molina
+                    /ordering-a-burritozilla-in-the-middle-of-a-coding-bootcamp
+                    -15dadf1eca22"
+        rel="noopener"
+        target="_blank"
+      >
+        deciding whether or not to eat a Burritozilla for the umpteenth time.
+      </a>
+    </i>
+  </p>
+</div>
+`;

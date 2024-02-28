@@ -1,0 +1,82 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Projects snapshot test > matches snapshot 1`] = `
+<div>
+  <div
+    class="Body-container"
+  >
+    <h2
+      class="Body-header mt-5"
+    >
+      Experience
+    </h2>
+    <h3>
+      Field Operator Specialist III
+    </h3>
+    <h4
+      class="Kett"
+    >
+      <a
+        href="https://www.ketteng.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        Kett Engineering 2018-2023
+      </a>
+    </h4>
+    <h2
+      class="Body-header mt-5"
+    >
+      Education
+    </h2>
+    <h3
+      class="RS-title mt-4"
+    >
+      Full Stack Web Development
+    </h3>
+    <h4
+      class="RS"
+    >
+      <a
+        href="https://www.rithmschool.com/"
+        rel="noopener"
+        target="_blank"
+      >
+        Rithm School 2023-2024
+      </a>
+    </h4>
+    <h3
+      class="De-Anza mt-4"
+    >
+      Associate of Science, Computer Science
+    </h3>
+    <h4
+      class="RS"
+    >
+      <a
+        href="https://www.deanza.edu/"
+        rel="noopener"
+        target="_blank"
+      >
+        De Anza College 2019
+      </a>
+    </h4>
+    <h3
+      class="LMU mt-4"
+    >
+      Bachelor of Arts, Screenwriting
+    </h3>
+    <h4
+      class="RS"
+    >
+      <a
+        href="https://www.lmu.edu/"
+        rel="noopener"
+        target="_blank"
+      >
+        Loyola Marymount University 2016
+      </a>
+    </h4>
+  </div>
+</div>
+`;
