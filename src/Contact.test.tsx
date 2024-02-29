@@ -5,14 +5,14 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import Contact from './Contact';
 
 
-describe("Projects smoke test", function () {
+describe("Contact smoke test", function () {
   test('renders without crashing', function () {
       render(<Contact />);
   });
 });
 
 
-describe("Projects snapshot test", function () {
+describe("Contact snapshot test", function () {
   test('matches snapshot', function () {
       const { container } = render(<Contact />);
       expect(container).toMatchSnapshot();
