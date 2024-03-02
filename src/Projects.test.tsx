@@ -18,6 +18,12 @@ describe('Projects renders correct data', function () {
         expect(res.queryByText('Pix.ly 📷')).toBeInTheDocument();
         expect(res.queryByText('Plant App 🌱')).toBeInTheDocument();
     });
+    test('does not contain other component text', function () {
+        const res = render(<Projects />);
+        expect(res.queryByText('Software Engineer')).not.toBeInTheDocument();
+        expect(res.queryByText('Sunnyvale, CA')).not.toBeInTheDocument();
+        expect(res.queryByText('carl@carlmolina.com')).not.toBeInTheDocument();
+    });
 });
 
 
