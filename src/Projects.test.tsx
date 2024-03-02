@@ -11,8 +11,17 @@ describe("Projects smoke test", function () {
     });
 });
 
+describe('Projects renders correct data', function () {
+    test('contains expected text', function () {
+        const res = render(<Projects />);
+        expect(res.queryByText('Jobly 👩🏽‍💼')).toBeInTheDocument();
+        expect(res.queryByText('Pix.ly 📷')).toBeInTheDocument();
+        expect(res.queryByText('Plant App 🌱')).toBeInTheDocument();
+    });
+});
 
-describe("Projects snapshot test", function () {
+
+describe('Projects snapshot test', function () {
     test('matches snapshot', function () {
         const { container } = render(<Projects />);
         expect(container).toMatchSnapshot();
