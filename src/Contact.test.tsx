@@ -11,6 +11,13 @@ describe("Contact smoke test", function () {
   });
 });
 
+describe('Contact renders correct data', function () {
+  test('contains expected text', function () {
+      const res = render(<Contact />);
+      expect(res.queryByText('carl@carlmolina.com')).toBeInTheDocument();
+  });
+});
+
 
 describe("Contact snapshot test", function () {
   test('matches snapshot', function () {
