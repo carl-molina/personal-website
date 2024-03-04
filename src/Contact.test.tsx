@@ -16,6 +16,12 @@ describe('Contact renders correct data', function () {
       const res = render(<Contact />);
       expect(res.queryByText('carl@carlmolina.com')).toBeInTheDocument();
   });
+  test('does not contain other component text', function () {
+    const res = render(<Contact />);
+    expect(res.queryByText('Software Engineer')).not.toBeInTheDocument();
+    expect(res.queryByText('Sunnyvale, CA')).not.toBeInTheDocument();
+    expect(res.queryByText('Jobly 👩🏽‍💼')).not.toBeInTheDocument();
+});
 });
 
 
