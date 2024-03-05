@@ -21,6 +21,8 @@ describe('Contact renders correct data', function () {
     expect(res.queryByText('Software Engineer')).not.toBeInTheDocument();
     expect(res.queryByText('Sunnyvale, CA')).not.toBeInTheDocument();
     expect(res.queryByText('Jobly 👩🏽‍💼')).not.toBeInTheDocument();
+    expect(res.queryByText('Pix.ly 📷')).not.toBeInTheDocument();
+    expect(res.queryByText('Plant App 🌱')).not.toBeInTheDocument();
 });
 });
 
