@@ -7,14 +7,14 @@ import Contact from './Contact';
 
 describe("Contact smoke test", function () {
   test('renders without crashing', function () {
-      render(<Contact />);
+    render(<Contact />);
   });
 });
 
 describe('Contact renders correct data', function () {
   test('contains expected text', function () {
-      const res = render(<Contact />);
-      expect(res.queryByText('carl@carlmolina.com')).toBeInTheDocument();
+    const res = render(<Contact />);
+    expect(res.queryByText('carl@carlmolina.com')).toBeInTheDocument();
   });
   test('does not contain other component text', function () {
     const res = render(<Contact />);
@@ -23,13 +23,13 @@ describe('Contact renders correct data', function () {
     expect(res.queryByText('Jobly 👩🏽‍💼')).not.toBeInTheDocument();
     expect(res.queryByText('Pix.ly 📷')).not.toBeInTheDocument();
     expect(res.queryByText('Plant App 🌱')).not.toBeInTheDocument();
-});
+  });
 });
 
 
 describe("Contact snapshot test", function () {
   test('matches snapshot', function () {
-      const { container } = render(<Contact />);
-      expect(container).toMatchSnapshot();
+    const { container } = render(<Contact />);
+    expect(container).toMatchSnapshot();
   });
 });
