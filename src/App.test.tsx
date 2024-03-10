@@ -11,7 +11,6 @@ describe("App smoke test", function () {
   });
 });
 
-
 describe("App snapshot test", function () {
   test('matches snapshot', function () {
       const { container } = render(<App />);
