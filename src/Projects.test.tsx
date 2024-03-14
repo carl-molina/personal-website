@@ -1,7 +1,7 @@
 import React from "react";
 
-import { test, afterEach, describe, expect, vi } from "vitest";
-import { render, fireEvent, screen } from '@testing-library/react';
+import { test, describe, expect } from "vitest";
+import { render } from '@testing-library/react';
 import Projects from "./Projects";
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { test, expect, describe } from "vitest";
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 
 import Intro from './Intro';
 
